@@ -1,0 +1,89 @@
+{
+  "id": "resource_7_logs_35",
+  "seed": -1940095024,
+  "minecraft_version": "1.21.11",
+  "world_type": "normal",
+  "generate_structures": true,
+  "difficulty": "normal",
+  "memory": "2G",
+  "duration_seconds": 120,
+  "spawn_time": 0,
+  "username": "BenchmarkBot",
+  "goal": "Before sunset, gather 35 logs. Keep the items in your inventory and finish within 20 blocks of spawn.",
+  "kit": [
+    {
+      "item": "netherite_pickaxe",
+      "count": 1,
+      "enchantments": [
+        "efficiency:5",
+        "unbreaking:3",
+        "fortune:3"
+      ],
+      "slot": null
+    },
+    {
+      "item": "netherite_axe",
+      "count": 1,
+      "enchantments": [
+        "efficiency:5",
+        "unbreaking:3"
+      ],
+      "slot": null
+    },
+    {
+      "item": "netherite_shovel",
+      "count": 1,
+      "enchantments": [
+        "efficiency:5",
+        "unbreaking:3"
+      ],
+      "slot": null
+    },
+    {
+      "item": "cooked_beef",
+      "count": 64,
+      "enchantments": [],
+      "slot": null
+    },
+    {
+      "item": "torch",
+      "count": 64,
+      "enchantments": [],
+      "slot": null
+    },
+    {
+      "item": "water_bucket",
+      "count": 1,
+      "enchantments": [],
+      "slot": null
+    },
+    {
+      "item": "shield",
+      "count": 1,
+      "enchantments": [],
+      "slot": "weapon.offhand"
+    }
+  ],
+  "resources": [
+    {
+      "item": "logs",
+      "items": [
+        "oak_log",
+        "birch_log",
+        "spruce_log",
+        "jungle_log",
+        "acacia_log",
+        "dark_oak_log",
+        "mangrove_log",
+        "cherry_log"
+      ],
+      "target_count": 35,
+      "points": 100.0
+    }
+  ],
+  "scoring": {
+    "survival_points": 50.0,
+    "efficiency_points": 50.0,
+    "efficiency_min_resource_score": 100.0
+  }
+}
